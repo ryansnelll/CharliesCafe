@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title></title>
+  <title>CharliesCafe</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,114 @@
 
 <body>
   <!-- Add your content here -->
+  * {
+      box-sizing: border-box;
+  }
+  
+  .column {
+      float: left;
+      width: 33.33%;
+      padding: 2rem;
+      margins: 1rem;
+  }
+  
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  
+  @media screen and (max-width: 375px) {
+      .column {
+          width: 100%;
+      }
+  }
+  </style>
+  </head>
+  <body>
+    <div class="container thing">
+    <div id="thing">
+    </div>
+    <div class="row text-center">
+    <div class="jumbotron jumbotron-fluid offset-3">
+    <div class="container">
+      <h1 class="display-2">Charlie's Cafe</h1>
+      </div>
+    </div>
+    </div>
+    
+  <div class="row">
+    <div class="column" style="background-color:lightgray;">
+      <h2>Hot Drinks</h2>
+      <p>Drip Coffee</p>
+      <p> $2.15 $2.50 $2.75 </p>
+      
+      <p> Espresso </p>
+      <p> $2.25 $2.75 $3.20 </p>
+      <p> Macchiato </p>
+      <p> $2.35 $2.85 $3.35 </p>
+      <p> Americano </p>
+      <p> $2.00 $2.50 $3.25 </p>
+      <p> Cappuccino </p>
+      <p> $2.95 $3.50 $4.25 </p>
+      <p> Caffe Latte </p>
+      <p> $3.55 $3.95 $4.75 </p>
+      <p> Caffe Mocha </p>
+      <p> $3.75 $4.45 $5.05 </p>
+      <p> Caramel Macchiato </p>
+      <p> $3.95 $4.45 $5.05 </p>
+      <p> Hot Chocolate </p>
+      <p> $3.25 $3.75 $4.25 </p>
+      <p> Chai </p>
+      <p> $3.25 $3.95 $4.25 </p>
+      <p> Organic Tea </p>
+      <p> $2.50 </p>
+      
+      
+    </div>
+    <div class="column" style="background-color:orange;">
+      <h2>Iced Drinks</h2>
+       <p>Coffee</p>
+      <p> $2.75 </p>
+      <p> Americano </p>
+      <p> $2.00 $2.50 $3.25 </p>
+      <p> Latte </p>
+      <p> $3.35 $3.55 $3.95 </p>
+      <p> Mocha </p>
+      <p> $3.75 $4.25 $5.00 </p>
+      <p> Chai </p>
+      <p> $3.25 $3.95 $4.25 </p>
+      <p> Mocha Frappe </p>
+      <p> $4.50 $5.50 </p>
+      <p> Thai Cappuccino </p>
+      <p> $4.25 </p>
+      <p> Thai Tea </p>
+      <p> $3.25 </p>
+      <p> Iced Tea </p>
+      <p> $2.50 $2.75 </p>
+    </div>
+    <div class="column" style="background-color:lightgray;">
+      <h2>Drink Specials</h2>
+       <p>Thai Iced Cappuccino</p>
+      <p> channel your inner exotic spirit with a double shot of espresso finished with sweetened condensed milk. </p>
+      
+      <p> Joyous Almond Latte </p>
+      <p> Imagine drinking the candy bar ... only better!! </p>
+      <p> Banana Nut Mocha </p>
+      <p> You’ll go BANANAS!! it’s so yum ... yup, just yum! </p>
+      <p> Mochaccino </p>
+      <p> Who decided to just add chocolate to everything? Whoever it was, they are genius. </p>
+      <p> White Chocolate Raspberry Latte </p>
+      <p> ADDICTED? NO ... CAN I HAVE ANOTHER? </p>
+      <p> Cinnamon Iced Hot Chocolate </p>
+      <p> Whoa, iced hot chocolate? It can’t get much better than this --- and cinnamon?! </p>
+      <p> Dark Chocolate Raspberry Latte </p>
+      <p> A latte a day keeps the doctor away. yup. I’m pretty sure that’s how that goes. </p>
+    </div>
+  </div>
+  
+  </body>
+  </html>
 
   <!-- Load Scripts -->
   <script src="js/scripts.js"></script>
